@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(206, 236, 255);
+}
+
+/****** Logo Animation Einstellungen ******/
+header .header-logo img {
+    animation: Logo 1s linear 0s infinite alternate-reverse forwards;
+}
+
+/****** Logo Animations Ablauf ******/
+@keyframes Logo {
+    0% {
+        filter: brightness(0.5);
+    }
+
+    100% {
+        filter: brightness(1.5);
+    }
+}
+
+/****** Header Animation Einstellungen ******/
+header {
+    animation: HeaderColor 10s ease-in 0s infinite forwards;
+}
+
+/****** Header Animation Ablauf ******/
+@keyframes HeaderColor {
+    0% {
+        background-color: lightblue;
+    }
+
+    20% {
+        background-color: lightcoral;
+    }
+
+    40% {
+        background-color: lightcyan;
+    }
+
+    60% {
+        background-color: lightgoldenrodyellow;
+    }
+
+    80% {
+        background-color: lightgray;
+    }
+
+    100% {
+        background-color: lightgreen;
+    }
+}
+
+/****** Nav img Animation Einstellungen ******/
+nav div img {
+    animation: NavImg 1.5s linear 0s infinite alternate-reverse forwards;
+}
+
+/****** Nav Animation Ablauf ******/
+@keyframes NavImg {
+    0% {}
+
+    100% {
+        filter: sepia(1);
+        border-radius: 20%;
+    }
+}
+
+/****** Main Div Animation Einstellungen ******/
+main div {
+    animation: MainColor 8s linear 0s infinite forwards;
+}
+
+/****** Main Div Animation Ablauf ******/
+@keyframes MainColor {
+    0% {
+        color: black;
+    }
+
+    20% {
+        color: red;
+    }
+
+    40% {
+        color: green;
+    }
+
+    60% {
+        color: blue;
+    }
+
+    80% {
+        color: yellow;
+    }
+
+    100% {
+        color: orange;
+    }
+}

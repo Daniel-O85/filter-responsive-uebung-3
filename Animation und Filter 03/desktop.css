@@ -1,0 +1,79 @@
+@media screen and (min-width:500px) {
+
+    /**** Header Einstellungen *****/
+    header {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        align-items: center;
+        height: 120px;
+        text-align: center;
+    }
+
+    header img {
+        width: 100px;
+    }
+
+    header .header-input {
+        grid-row-start: 1;
+        grid-column-start: 2;
+
+    }
+
+    header .header-input input {
+        width: 300px;
+        height: 30px;
+    }
+
+    /***** Nav Einstellungen *****/
+    nav div {
+        margin: 20px;
+    }
+
+    nav img {
+        width: 200px;
+    }
+
+    /****** Main Einstellungen ******/
+    .kasten {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 50px;
+    }
+
+    main .main-box-1 {
+        width: 50%;
+    }
+
+    main .main-box-2 {
+        grid-column-start: 2;
+        grid-row-start: 2;
+        width: 50%;
+    }
+
+    main .main-box-3 {
+        grid-row-start: 3;
+        grid-column-end: span 2;
+        width: 80%;
+    }
+
+    /****** Footer Einstellungen ******/
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer div {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    footer img {
+        width: 50px;
+    }
+}
